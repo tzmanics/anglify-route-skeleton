@@ -1,1 +1,34 @@
-<p>header works!</p>
+<nav class="header-toolbar">
+  <mat-toolbar color="primary">
+    <div class="header-item">
+      <a
+        mat-list-item
+        [routerLink]="['']"
+        routerLinkActive="router-link-active"
+      >
+        Home
+      </a>
+      <a
+        mat-list-item
+        [routerLink]="['/page1']"
+        routerLinkActive="router-link-active"
+      >
+        Page 1
+      </a>
+      <a
+        mat-list-item
+        [routerLink]="['/page2']"
+        routerLinkActive="router-link-active"
+      >
+        Page 2
+      </a>
+      <a
+        mat-list-item
+        [routerLink]="['/page3']"
+        routerLinkActive="router-link-active"
+      >
+        Page 3
+      </a>
+    </div>
+  </mat-toolbar>
+</nav>
