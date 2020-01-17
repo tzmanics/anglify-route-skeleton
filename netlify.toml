@@ -1,0 +1,3 @@
+[build]
+  publish = "dist/static"
+  command = "ng build --prod && npm run scully"
